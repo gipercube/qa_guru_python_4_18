@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "api-tests"
+version = "0.1.0"
+description = ""
+authors = ["Aleksandr K"]
+readme = "README.md"
+packages = [{include = "api_tests"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "*"
+selene = "2.0.0b17"
+voluptuous = "^0.13.1"
+pytest-voluptuous = "^1.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

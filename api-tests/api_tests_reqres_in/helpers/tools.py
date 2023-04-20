@@ -8,3 +8,10 @@ def data_len(response):
 
 def get_date(value):
     return value[:10]
+
+
+def insert_name(value):
+    return {
+        "name": f"{value}",
+        "job": "leader"
+    }

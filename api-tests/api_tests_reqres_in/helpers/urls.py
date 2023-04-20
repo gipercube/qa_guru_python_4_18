@@ -1,0 +1,5 @@
+get_single_user_url = "https://reqres.in/api/users"
+get_single_user_2_url = "https://reqres.in/api/users/2"
+post_create_new_user_url = "https://reqres.in/api/users"
+post_register_url = "https://reqres.in/api/register"
+post_login_url = "https://reqres.in/api/login"

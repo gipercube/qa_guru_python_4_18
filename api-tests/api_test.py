@@ -46,7 +46,6 @@ def test_post_create_new_user_name(name):
     assert response.json()["name"] == name
 
 
-
 def test_post_create_actual_date():
     """Дата создания соответствует текущей"""
     response: Response = requests.post(urls.post_create_new_user_url, request_bodies.create_new_user)

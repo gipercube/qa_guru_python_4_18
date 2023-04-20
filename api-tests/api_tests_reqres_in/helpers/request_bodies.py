@@ -4,9 +4,9 @@ create_new_user = {
 }
 
 register_new_user = {
-        "email": "eve.holt@reqres.in",
-        "password": "pistol"
-    }
+    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+}
 
 login_unsuccessful = {
     "email": "peter@klaven"
